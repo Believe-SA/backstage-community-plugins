@@ -59,6 +59,7 @@
     "@backstage/errors": "^1.2.7",
     "@backstage/frontend-plugin-api": "^0.12.1",
     "@backstage/plugin-catalog-react": "^1.21.2",
+    "@backstage/plugin-home-react": "^0.1.24",
     "@backstage/plugin-permission-react": "^0.4.37",
     "@backstage/plugin-search-common": "^1.2.20",
     "@backstage/plugin-search-react": "^1.9.5",
