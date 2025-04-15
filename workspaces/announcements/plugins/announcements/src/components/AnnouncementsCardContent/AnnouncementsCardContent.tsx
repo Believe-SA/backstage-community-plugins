@@ -58,7 +58,7 @@ type AnnouncementsListProps = {
   hideStartAt?: boolean;
 };
 
-export const AnnouncementsList = ({
+export const AnnouncementsCardContent = ({
   max,
   category,
   active,

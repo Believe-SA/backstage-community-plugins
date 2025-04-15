@@ -6,6 +6,7 @@
 /// <reference types="react" />
 
 import { BackstagePlugin } from '@backstage/core-plugin-api';
+import { CardExtensionProps } from '@backstage/plugin-home-react';
 import { IndexableDocument } from '@backstage/plugin-search-common';
 import { InfoCardVariants } from '@backstage/core-components';
 import { JSX as JSX_2 } from 'react/jsx-runtime';
@@ -119,6 +120,11 @@ export type AnnouncementsTimelineProps = {
 
 // @public
 export type MarkdownRendererTypeProps = 'backstage' | 'md-editor';
+
+// @public (undocumented)
+export const HomepageAnnouncements: (
+  props: CardExtensionProps<{}>,
+) => JSX_2.Element;
 
 // @public (undocumented)
 export const NewAnnouncementBanner: (props: {
