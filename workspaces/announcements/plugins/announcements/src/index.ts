@@ -19,4 +19,5 @@ export type {
   AnnouncementsTimelineProps,
   AnnouncementSearchResultProps,
   MarkdownRendererTypeProps,
+  AnnouncementsHomepageProps,
 } from './components';

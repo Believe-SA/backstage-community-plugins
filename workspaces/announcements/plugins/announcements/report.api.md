@@ -64,6 +64,22 @@ export interface AnnouncementSearchResultProps {
   result?: IndexableDocument;
 }
 
+// @public
+export interface AnnouncementsHomepageProps {
+  // (undocumented)
+  active?: boolean;
+  // (undocumented)
+  category?: string;
+  // (undocumented)
+  hideStartAt?: boolean;
+  // (undocumented)
+  max?: number;
+  // (undocumented)
+  order?: 'asc' | 'desc';
+  // (undocumented)
+  sortBy?: 'created_at' | 'start_at';
+}
+
 // @public (undocumented)
 export const AnnouncementsPage: (props: {
   themeId?: string | undefined;
@@ -123,7 +139,7 @@ export type MarkdownRendererTypeProps = 'backstage' | 'md-editor';
 
 // @public (undocumented)
 export const HomepageAnnouncements: (
-  props: CardExtensionProps<{}>,
+  props: CardExtensionProps<AnnouncementsHomepageProps>,
 ) => JSX_2.Element;
 
 // @public (undocumented)
