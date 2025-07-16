@@ -56,6 +56,7 @@ const AnnouncementDetails = ({
       By{' '}
       <EntityRefLink
         entityRef={announcement.on_behalf_of || announcement.publisher}
+        variant="inherit"
         hideIcon
       />
       , {DateTime.fromISO(announcement.created_at).toRelative()}
